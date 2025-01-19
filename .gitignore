@@ -12,5 +12,5 @@ wheels/
 # Env Files
 .env
 
-# Data
+# Data folder
 data/
