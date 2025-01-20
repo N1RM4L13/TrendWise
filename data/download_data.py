@@ -20,7 +20,7 @@ os.system(f"kaggle competitions download -c h-and-m-personalized-fashion-recomme
 
 for zip_file in download_dir.glob("*.zip"):
     print(f"Unzipping {zip_file}...")
-    os.system(f'tar -xf "{zip_file}" -C "{download_dir}"')  
+    os.system(f'tar -xf "{zip_file}" -C "{download_dir}"') 
 
 
 
